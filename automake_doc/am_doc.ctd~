@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <cherrytree>
-	<node custom_icon_id="0" foreground="" is_bold="False" name="automake_doc" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1543657043.14" ts_lastsave="1543657390.03" unique_id="1">
+	<node custom_icon_id="0" foreground="" is_bold="False" name="automake_doc" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1543657043.14" ts_lastsave="1543659116.81" unique_id="2">
 		<rich_text>AUTOMAKE学习
 一、automake使用总结
 1、automake使用流程
@@ -12,6 +12,14 @@
 3、automake的宏与变量
 
 二、libtool &amp; automake使用步骤
-1、在需要编译的文件夹下，编写Makefile.am</rich_text>
+1、在需要编译的文件夹下，编写Makefile.am
+
+</rich_text>
+		<rich_text justification="left"></rich_text>
+		<codebox char_offset="223" frame_height="115" frame_width="550" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="plain-text" width_in_pixels="True">AUTOMAKE_OPTIONS = foreign
+lib_LTLIBRARIES = libxxx.la
+libxxx_la_SOURCES = xxx.c
+#xxx.h will be installed to sysdir
+include_HEADERS = xxx.h</codebox>
 	</node>
 </cherrytree>
