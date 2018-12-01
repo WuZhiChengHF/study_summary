@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="automake_doc" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1543657043.14" ts_lastsave="1543657390.03" unique_id="2">
+		<rich_text>AUTOMAKE学习
+一、automake使用总结
+1、automake使用流程
+2、代码目录结构
+    1、Flat结构：所有的文件都存在同一目录下
+    2、Shallow结构：主程序代码放在顶层目录，各子模块放在各自子目录中
+    3、Deep结构：所有的源文件都存在各自的子目录中
+    
+3、automake的宏与变量
+
+二、libtool &amp; automake使用步骤
+1、在需要编译的文件夹下，编写Makefile.am</rich_text>
+	</node>
+</cherrytree>
